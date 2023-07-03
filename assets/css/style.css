@@ -1,0 +1,78 @@
+
+.container-fluid .navbar-brand{
+    text-align: center;
+    margin-right: 30%;
+    color: #d91616;
+    font-weight: 700;
+}
+
+.container-fluid .navbar-toggler{
+    border: none;
+    font-size: 25px;
+    color: rgba(193, 198, 194, 0.934);
+}
+.container-fluid .nav-item{
+    text-align: center;
+    margin: 5px 0px 0px 0px;
+    background-color: rgb(218, 222, 222);
+}
+.container-fluid .nav-item .nav-link .fa-solid{
+    background-color: aliceblue;
+    color: black;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+.container-fluid .nav-item .nav-link {
+    color: #d91616;  
+    font-weight: 500;
+}
+.container-fluid .collapse {
+    background-color: rgb(167, 174, 174);
+    margin: 0px -10px -10px -50px;
+}
+.container-fluid .collapse h2 {
+    text-align: center;
+    color: #d91616;
+}
+.table .col{
+    border: px solid #000;
+
+}
+
+.table i{
+    font-size: 15px;
+    background-color: rgb(170, 172, 174);
+    padding: 5px;
+    border-radius: 50%;
+}
+
+
+@media (min-width:800px){
+    .navbar{
+        margin: -10px;
+    }
+    .container-fluid{
+        margin: 0;
+        text-align: center;
+        width: 100%;
+        background-color: rgb(162, 164, 166);
+        color: #d91616;
+        font-weight: 1000;
+    }
+    .container-fluid .navbar-brand{
+        text-align: center;
+        margin-left: 40%;
+        background-color: rgb(162, 164, 166);
+        color: #d91616;
+        font-weight: 1000;
+    }
+    
+    .container-fluid .navbar-toggler{
+        visibility: hidden;
+    }
+    .container-fluid .collapse {
+        visibility: hidden;
+    }
+}
