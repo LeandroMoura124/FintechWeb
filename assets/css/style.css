@@ -47,9 +47,29 @@
     padding: 5px;
     border-radius: 50%;
 }
-
+.table tr {
+    border-color: inherit;
+    border-style: solid;
+    border-bottom-color: #000;
+    border-width: 0;
+}
+.container{
+    background-color: #9ea0a3;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    margin: 34% 0px 0px 0px;
+}
+.container button{
+    color: #d91616;
+    border: none;
+    background-color: #9ea0a3;
+    font-size: 20px;
+    font-weight: 700;
+}
 
 @media (min-width:800px){
+    
     .navbar{
         margin: -10px;
     }
