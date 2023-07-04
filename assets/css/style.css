@@ -1,7 +1,11 @@
 
+.navbar{
+    min-width: 100%;
+}
 .container-fluid .navbar-brand{
     text-align: center;
-    margin-right: 30%;
+    margin-right: 20%;
+    padding: 25px;
     color: #d91616;
     font-weight: 700;
 }
@@ -56,9 +60,10 @@
 .container{
     background-color: #9ea0a3;
     text-align: center;
-    width: 100%;
+    min-width: 100%;
     padding: 20px;
-    margin: 34% 0px 0px 0px;
+    margin: 24.9% 0px 0px 0px;
+    position: fixed;
 }
 .container button{
     color: #d91616;
@@ -69,6 +74,7 @@
 }
 
 @media (min-width:800px){
+
     
     .navbar{
         margin: -10px;
@@ -76,7 +82,7 @@
     .container-fluid{
         margin: 0;
         text-align: center;
-        width: 100%;
+        justify-items: center;
         background-color: rgb(162, 164, 166);
         color: #d91616;
         font-weight: 1000;
@@ -94,5 +100,15 @@
     }
     .container-fluid .collapse {
         visibility: hidden;
+    }
+
+    .container{
+        background-color: #9ea0a3;
+        text-align: center;
+        margin: 23.5% 0px 0px 0px;
+
+        min-width: 100%;
+        padding: 20px;
+        position: fixed;
     }
 }
